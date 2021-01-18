@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width:500px;
+}
+
+.gameBoard{
+    width: 320px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box1{
+  border:black solid;
+  color:white;
+  width: 100px;
+  height: 100px;
+  border-left: none;
+  border-top: none;
+}
+
+.clicked{
+  color: red;
+  font-size: 100px;
+}
+
+
+.box2{
+  border:black solid;
+  width: 100px;
+  height: 100px;
+  border-top: none;
+  color:white;
+
+}
+
+.box3{
+  border:black solid;
+  width: 100px;
+  height: 100px;
+  border-right: none;
+  border-top: none;
+  color:white;
+}
+
+.box4{
+  border:black solid;
+  width: 100px;
+  height: 100px;
+  border-left: none;
+  color:white;
+}
+
+.box5{
+  border:black solid;
+  width: 100px;
+  height: 100px;
+  color:white;
+}
+
+.box6{
+  border:black solid;
+  width: 100px;
+  height: 100px;
+  border-right:none;
+  color:white;
+}
+
+.box7{
+  border:black solid;
+  width: 100px;
+  height: 100px;
+  border-left:none;
+  border-bottom:none;
+  color:white;
+}
+
+.box8{
+  border:black solid;
+  width: 100px;
+  height: 100px;
+  border-bottom:none;
+  color:white;
+}
+
+.box9{
+  border:black solid;
+  width: 100px;
+  height: 100px;
+  border-right:none;
+  border-bottom:none;
+  color:white;
+}
